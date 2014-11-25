@@ -1,0 +1,90 @@
+/*Horizontal navigation*/
+#nav .moduletable h3{display:none}
+#nav .moduletable{margin:0;padding:0}
+#nav{float:left; display:block; width:680px;}
+#nav ul{list-style:none; padding:0; margin:0;}
+#nav ul li{float:left; padding:0 3px 0 0; background:url(../images/li_bg.jpg) no-repeat right 0; }
+#nav ul li a{font:normal 16px/47px "Century Gothic", Verdana, Arial, Helvetica, sans-serif; color:#FFF; text-decoration:none; display:block; float:left;}
+#nav ul li a span{ float:left; padding:0 16px;}
+#nav ul li a:hover{color:#D6C2F3; text-decoration:none; display:block;}
+#nav ul li a:hover span{color:#D6C2F3; text-decoration:none; display:block;}
+
+#nav ul li a.active{font:normal 16px/47px "Century Gothic", Verdana, Arial, Helvetica, sans-serif; color:#D6C2F3; text-decoration:none; display:block;}
+#nav ul li a.active span{ float:left; padding:0 16px; color:#D6C2F3;}
+#nav ul li a.active:hover{color:#D6C2F3; text-decoration:none; display:block;}
+#nav ul li a.active:hover span{color:#D6C2F3; text-decoration:none; display:block;}
+
+#nav ul ul li{border:none; }
+#nav ul li li a:hover{color:#000000; text-decoration:none;}
+
+
+
+#nav-bottom .moduletable h3{display:none}
+#nav-bottom .moduletable{margin:0;padding:0}
+#nav-bottom{width:auto; height:30px; border:white solid 2px; z-index:999; position:relative;}
+#nav-bottom ul{list-style:none; padding:0 0 0 0px; margin:0;}
+#nav-bottom ul li{float:left; display:inline; border-right:solid 2px #fff;}
+#nav-bottom ul li a{height:30px; font:bold 12px/30px Arial, Helvetica, sans-serif; color:#3a5164; padding:0px 15px; text-decoration:none;}
+#nav-bottom ul li.active a{display:block; color:#055aa7; text-decoration:none;}
+#nav-bottom ul li a:hover{display:block; color:#055aa7; text-decoration:none;}
+
+#nav-bottom ul li ul {width:200px;}
+#nav-bottom ul li li {font:bold 12px/normal Arial, Helvetica, sans-serif; color:#3a5164; padding:1px 0;}
+#nav-bottom ul li li a {font:bold 12px/normal Arial, Helvetica, sans-serif; color:#3a5164; padding-top:11px;}
+#nav-bottom ul li ul ul {width:200px; margin:0 0 0 50px;}
+
+
+
+
+
+
+
+
+/*Module style*/
+.module{margin:0}
+.module .inside{padding:0 10px}
+.module h3{color:#A0B62D;text-align:left;margin:0;height:30px;font-size:16px;line-height:30px;padding:0 10px}
+.module #h3-l{width:100%;height:30px;background:url(../images/h3-l.png) no-repeat top left}
+.module #h3-m{width:100%;height:30px;background:url(../images/h3-m.png) repeat-x}
+.module #h3-r{width:100%;height:30px;background:url(../images/h3-r.png) no-repeat top right}
+.module #tl{width:100%;height:10px;background:url(../images/module_tl.png) no-repeat top left}
+.module #tr{width:100%;height:10px;background:url(../images/module_tr.png) top right}
+.module #bl{width:100%;height:10px;background:url(../images/module_bl.png) no-repeat top left}
+.module #br{width:100%;height:10px;background:url(../images/module_br.png) top right}
+.module #mid{width:auto;height:auto;background:#EBECED;border-right:1px solid #ccc;border-left:1px solid #ccc}
+.module ul{list-style:none}
+.module li{font-size:14px}
+.module li a:link,.module li a:visited{padding:6px 10px;border-bottom:1px solid #ccc;margin:0 -10px;color:#363636;text-decoration:none;display:block}
+.module li a:hover,.module li.active a{text-decoration:none;color:#404040}
+/*Module Menu*/
+.module_menu{margin:0}
+.module_menu .inside{padding:0 10px}
+.module_menu h3{color:#A0B62D;text-align:left;margin:0;height:30px;font-size:16px;line-height:30px;padding:0 10px}
+.module_menu #h3-l{width:100%;height:30px;background:url(../images/h3-l.png) no-repeat top left}
+.module_menu #h3-m{width:100%;height:30px;background:url(../images/h3-m.png) repeat-x}
+.module_menu #h3-r{width:100%;height:30px;background:url(../images/h3-r.png) no-repeat top right}
+.module_menu #tl{width:100%;height:10px;background:url(../images/module_tl.png) no-repeat top left}
+.module_menu #tr{width:100%;height:10px;background:url(../images/module_tr.png) top right}
+.module_menu #bl{width:100%;height:10px;background:url(../images/module_bl.png) no-repeat top left}
+.module_menu #br{width:100%;height:10px;background:url(../images/module_br.png) top right}
+.module_menu #mid{width:auto;height:auto;background:#EBECED;border-right:1px solid #ccc;border-left:1px solid #ccc}
+.module_menu ul{list-style:none}
+.module_menu li{font-size:14px}
+.module_menu li a:link,.module_menu li a:visited{padding:6px 10px;border-bottom:1px solid #ccc;margin:0 -10px;background:#EBECED;color:#363636;text-decoration:none;display:block}
+.module_menu li a:hover,.module_menu li.active a{background:#F7F7F7;text-decoration:none;color:#404040}
+/*Advertisement*/
+.module_text{margin:0}
+.module_text .inside{padding:0 10px}
+.module_text h3{color:#A0B62D;text-align:left;margin:0;height:30px;font-size:16px;line-height:30px;padding:0 10px}
+.module_text #h3-l{width:100%;height:30px;background:url(../images/h3-l.png) no-repeat top left}
+.module_text #h3-m{width:100%;height:30px;background:url(../images/h3-m.png) repeat-x}
+.module_text #h3-r{width:100%;height:30px;background:url(../images/h3-r.png) no-repeat top right}
+.module_text #tl{width:100%;height:10px;background:url(../images/module_tl.png) no-repeat top left}
+.module_text #tr{width:100%;height:10px;background:url(../images/module_tr.png) top right}
+.module_text #bl{width:100%;height:10px;background:url(../images/module_bl.png) no-repeat top left}
+.module_text #br{width:100%;height:10px;background:url(../images/module_br.png) top right}
+.module_text #mid{width:auto;height:auto;background:#EBECED;border-right:1px solid #ccc;border-left:1px solid #ccc}
+.module_text ul{list-style:none}
+.module_text li{font-size:14px}
+.module_text li a:link,.module_text li a:visited{padding:6px 10px;border-bottom:1px solid #ccc;margin:0 -10px;background:#EBECED;color:#363636;text-decoration:none;display:block}
+.module_text li a:hover,.module_text li.active a{background:#F7F7F7;text-decoration:none;color:#404040}

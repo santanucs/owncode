@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script type='text/javascript' src='http://staging.ginesys.in/manish/wp-content/themes/manish/js/jquery-1.8.2.js?ver=3.8.2'></script>
+        <script type="text/javascript" src="http://staging.ginesys.in/manish/wp-content/themes/manish/js/multizoom_org.js"></script>
+    </head>
+    <body>
+        
+        <div class="five columns alpha">
+
+            <img width="401" height="620" src="http://staging.ginesys.in/manish/wp-content/uploads/2014/02/PAGE-R.jpg" class="attachment-shop_single wp-post-image" alt="PAGE-R" title="PAGE-R" data-zoom-image="http://staging.ginesys.in/manish/wp-content/uploads/2014/02/PAGE-R.jpg" id="zoom_mw" />
+        </div>
+
+
+
+        <script type="text/javascript">
+
+        jQuery(document).ready(function($p){
+
+            $p('#zoom_mw').addimagezoom({ // multi-zoom: options same as for previous Featured Image Zoomer's addimagezoom unless noted as '- new'
+                descArea: '#description', // description selector (optional - but required if descriptions are used) - new
+                speed: 1500, // duration of fade in for new zoomable images (in milliseconds, optional) - new
+                descpos: true, // if set to true - description position follows image position at a set distance, defaults to false (optional) - new
+                imagevertcenter: true, // zoomable image centers vertically in its container (optional) - new
+                magvertcenter: true, // magnified area centers vertically in relation to the zoomable image (optional) - new
+                zoomrange: [3, 10],
+                magnifiersize: [550,550],
+                magnifierpos: 'right',
+                cursorshadecolor: '#fdffd5',
+                cursorshade: true //<-- No comma after last option!
+            });
+            
+            
+            
+        })
+
+        </script>
+    
+    
+    </body>
+</html>

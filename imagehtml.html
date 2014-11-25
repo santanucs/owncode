@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.0.min.js'></script>
+        <script type="text/javascript">
+                $(document).ready(function(){
+                    $('#check_password_but').click(function(){
+                        var check_password = $('#check_password').val();
+                        if(check_password == '123456'){
+                            $('#error').hide();
+                            $('#security_box').fadeOut("slow");
+                          
+                        }
+                        else{
+                          $('#error').show();
+                        }                       
+                        
+                    });   
+                });
+        </script>
+        <style>
+            .security_box{
+                background: none repeat scroll 0 0 #CCCCCC;
+                height: 200px;
+                position: absolute;
+                width: 200px;
+            }
+            .checking_cont{
+                display: block;
+                margin-left: 23px;
+                margin-top: 61px;
+            }
+            
+        </style>
+        
+        
+        
+    
+    </head>
+    <body>
+    
+        <div id="main_cont" class="class_main_cont">
+            <div id="security_box" class="security_box" style="display: block;">
+                <span class="checking_cont">
+                    <span id="error" style="display: none;">Wrong Password<br></span>
+                    Password : <input type="password" id="check_password" class="class_check_password"><br>
+                    <input type="button" name="check_password_but" id="check_password_but" value="submit">
+                </span>    
+            </div>
+            <div id="main_image" class="class_main_image" style="display: block;">
+                <img src="http://staging.ginesys.in/ginesys/wp-content/uploads/2014/04/manyavar1.jpg" height="200" width="200" alt="">
+            </div>
+        </div>
+    
+    
+    
+    
+    </body>
+
+
+
+
+</html>

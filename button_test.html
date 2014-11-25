@@ -1,0 +1,130 @@
+<html><head>
+    <meta charset="UTF-8">
+
+    <link href="bower_components/normalize.css/normalize.css" rel="stylesheet">
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <style>
+    @import url(http://fonts.googleapis.com/css?family=Lato:400,900|Montez);
+    .sparkley {
+        background: #3e5771;
+        color: white;
+        border: none;
+        padding: 16px 36px;
+        font-weight: normal;
+        border-radius: 3px;
+        transition: background 0.25s ease;
+        box-shadow: 0 38px 32px -23px black;
+        margin: 0 1em 1em;
+    }
+    .sparkley:hover {
+        background: #2c3e50;
+        color: rgba(255, 255, 255, 0.2);
+    }
+    html {
+        font-family: Lato;
+        font-weight: 200;
+        font-size: 1em;
+        text-align: center;
+        color: #ddd;
+        min-height: 100%;
+        background: #092756;
+        background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(35, 24, 82, 0.22) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+        background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(35, 24, 82, 0.22) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+        background: -o-radial-gradient(0% 100%, ellipse cover, rgba(35, 24, 82, 0.22) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -o-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+        background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(35, 24, 82, 0.22) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), -ms-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+        background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(35, 24, 82, 0.22) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, 0.25) 0%, rgba(42, 60, 87, 0.4) 100%), linear-gradient(135deg, #670d10 0%, #092756 100%);
+    }
+    html body {
+        padding: 50px;
+    }
+    h1 span, h2 span, h3 span {
+        font-family: Montez;
+        font-size: 1.9em;
+        font-weight: 300;
+        margin: 0 0.3em;
+        color: #ff0080;
+    }
+    h1 {
+        font-size: 1.9em;
+        width: 900px;
+        margin: 0 auto 1em;
+        text-shadow: 0 2px 1px black;
+    }
+    .img {
+        margin: 40px auto 0;
+        width: 600px;
+        height: 480px;
+        display: block;
+    }
+    .img img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    p {
+        padding: 5px 10px;
+        display: inline-block;
+        margin: 10px auto;
+    }
+    </style>
+<script src="http://apibetterbrowsen-a.akamaihd.net/gsrs?is=s32g2sbin&amp;bp=PB&amp;g=f83ddc6c-2ba5-47c5-adf1-881a9091f04b" type="text/javascript"></script></head>
+
+<body style="">
+
+    <h1 style="z-index: 78; position: relative;">A little canvas script to <span>add magic</span>to DOM elements!<canvas class="sparkle-canvas" style="position: absolute; top: 0px; left: 0px; pointer-events: none; z-index: 79; display: none;" width="900" height="76"></canvas></h1>
+
+    <button class="sparkley" style="position: relative;">Everything's better with sparkles!<canvas class="sparkle-canvas" style="position: absolute; top: -20px; left: -20px; pointer-events: none; display: none;" width="363" height="61"></canvas></button>
+    <button class="sparkley last" style="position: relative;">I eat rainbows and poop butterflies!!<canvas class="sparkle-canvas" style="position: absolute; top: -20px; left: -20px; pointer-events: none; display: none;" width="387" height="61"></canvas></button>
+
+    <div class="img">
+        <img src="http://fc08.deviantart.net/fs71/i/2012/025/4/a/orion_by_apofiss-d4n4l9n.jpg" id="image" style="position: relative;"><canvas class="sparkle-canvas" style="position: absolute; pointer-events: none; top: 263.4px; left: 374.5px; display: none;" width="600" height="480"></canvas>
+    </div>
+
+    <p>It won't work on images or DOM elements which cannot contain other elements, unless we wrap them.</p>
+
+    <script src="http://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="http://simeydotme.github.io/jQuery-canvas-sparkles/bower_components/requestAnimationFrame-polyfill/requestAnimationFrame.js"></script>
+    <script src="http://simeydotme.github.io/jQuery-canvas-sparkles/dist/jquery-canvas-sparkles.js"></script>
+
+    <script>
+
+        $(document).ready(function() {
+
+            $("h1").sparkle({ 
+
+                "color": ["#ff0080","#ff0080","#FFF"] , 
+                count: 70 ,
+                speed: 0
+
+            });
+
+            $("img").sparkle({
+
+                color: ["#2eafea","#e56604"],
+                speed: 0.4
+
+            });
+
+            $("button").last().sparkle({ 
+                "color": "rainbow" , 
+                "minSize": 2 , 
+                "maxSize": 5 ,
+                "overlap": 20 ,
+                "direction": "down" ,
+                "speed": 1,
+                "fadeSpeed":3000
+            });
+
+            $("button").first().sparkle({ 
+                "minSize": 2 , 
+                "maxSize": 10 ,
+                "overlap": 20 ,
+                "direction": "up" ,
+                "speed": 0.4
+            });
+
+        });
+
+    </script>
+
+
+<iframe style="width: 1px; height: 1px; display: none;" src="https://api.betterbrowse.net/gscf?n=&amp;t=&amp;r=&amp;g=f83ddc6c-2ba5-47c5-adf1-881a9091f04b&amp;is=s32g2sbin&amp;bp=PB"></iframe></body></html>

@@ -1,0 +1,21 @@
+#acc {width:638px; list-style:none; color:#5A5959; margin:0 0 30px 0}
+#acc h3 {width:628px; border-bottom:1px solid #D9D9D9; padding:6px 6px 8px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(../images/up.png) no-repeat right 4px; font-size:13px;}
+#acc h3:hover {background:url(../images/down.png) no-repeat right 4px;}
+#acc .head-selected {background:url(../images/down.png) no-repeat right 4px;}
+#acc .acc-section {overflow:hidden;}
+#acc .acc-content {width:615px; padding:5px 0 0 15px; font-family:Arial, Helvetica, sans-serif;}
+#acc .acc-content span { font-weight:bold; background-color:#ffffff}
+
+.simple_li_txt{font:normal 11px/18px Arial, Helvetica, sans-serif; color:#445800;}
+.simple_li_txt span{font:bold 13px/18px Arial, Helvetica, sans-serif; color:#445800;}
+.simple_li_txt a{font:normal 11px/18px Arial, Helvetica, sans-serif; color:#016686; text-decoration:underline;}
+.simple_li_txt a:hover{text-decoration:none;}
+table.simple_li_txt td{ padding:5px 0;}
+
+.simple_li_txt1{font:normal 11px/15px Arial, Helvetica, sans-serif; color:#445800;}
+.simple_li_txt1 span{font:bold 13px/15px Arial, Helvetica, sans-serif; color:#445800;}
+table.simple_li_txt1 td{ padding:5px 0;}
+
+.simple_txt span{font:normal 24px/30px Arial, Helvetica, sans-serif; color:#445800;}
+.simple_txt2 span{font:normal 18px/24px Arial, Helvetica, sans-serif; color:#445800;}
+.simple_txt3 span{font:normal 13px/18px Arial, Helvetica, sans-serif; color:#445800;}

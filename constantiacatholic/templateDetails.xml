@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+	<install version="1.5" type="template">
+		<name>constantiacatholic</name>
+		<creationDate>17th November, 2011</creationDate>
+		<author>InfusionGlobal</author>
+		<authorEmail>info@infusionglobal.com</authorEmail>
+		<authorUrl>http://www.infusionglobal.com</authorUrl>
+		<copyright>>Copyright (C) 2011 infusionglobal.com. All rights reserved.</copyright>
+		<version>1.0.0</version>
+		<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+		<description>
+		<![CDATA[
+			<h1>Constantiacatholic</h1>
+
+			<img src="../templates/constantiacatholic/template_thumbnail.png" align="left" style="margin-right: 10px;" hspace="10" />constantiacatholic <a target="_blank" href="http://www.infusionglobal.com">www.infusionglobal.com</a>.
+			]]>  	
+
+		</description>
+		
+		<files>
+			<file>index.php</file>
+			<file>params.ini</file>
+			<file>template_thumbnail.png</file>
+			<file>templateDetails.xml</file>
+			<folder>/css/</folder>
+			<folder>/html/</folder>
+			<folder>/images/</folder>
+		</files>	
+		
+		<positions>
+			<position>search</position>
+			<position>nav</position>
+			<position>nav-bottom</position>
+			<position>banner</position>
+			<position>breadcrumb</position>
+			<position>left</position>
+			<position>right</position>
+			<position>footer-nav</position>
+			<position>top1</position>
+			<position>top2</position>
+			<position>top3</position>
+			<position>top4</position>
+			<position>right1</position>
+			<position>right2</position>
+			<position>right3</position>
+			<position>footer-top</position>
+			<position>video</position>
+			<position>login</position>
+			<position>contactdetails</position>
+			<position>scheduledetails</position>
+		</positions>		
+	</install>		
+				

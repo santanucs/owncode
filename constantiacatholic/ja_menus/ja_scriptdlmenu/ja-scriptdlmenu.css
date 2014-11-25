@@ -1,0 +1,101 @@
+/*------------------------------------------------------------------------
+# JA Mageia for Joomla 1.5 - Version 1.4 - Licence Owner JA128467
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2008 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+-------------------------------------------------------------------------*/
+
+
+/* Script Dropline Menu
+--------------------------------------------------------- */
+#jasdl-mainnav ul, #jasdl-subnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#jasdl-mainnav ul li, #jasdl-subnav ul li {
+    margin: 0;
+    padding: 0;
+    display:inline;
+    background: none;
+}
+
+#jasdl-mainnav a {
+    float: left;
+    margin: 0;
+    padding: 2px 7px 2px 8px;
+    border-right: 1px solid #333333;
+    display: block;
+    color: #CCCCCC;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#jasdl-mainnav a:hover,
+#jasdl-mainnav ul li.hover a {
+    background: #666666;
+    color: #FFFFFF;
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+    border-bottom: 1px solid #000000;
+    color: #FFFFFF;
+    background: #006DA3;
+}
+
+#jasdl-mainnav ul li.havechild {
+}
+
+#jasdl-mainnav ul li.havechild-active {
+}
+
+#jasdl-subnav {
+    line-height: normal;
+}
+
+#jasdl-subnav a {
+    padding: 5px 7px 5px 8px;
+    float: left;
+    display: block;
+    color: #CCCCCC;
+    border-bottom: none;      
+    font-family:Georgia, "Times New Roman", Times, serif, "Lucida Console";
+    border-left: 1px solid #363636;
+}
+
+#jasdl-subnav a:hover,
+#jasdl-subnav a:active,
+#jasdl-subnav a:focus {
+    color: #FFFFFF;
+    background: url(../images/arrow2.gif) no-repeat center top #666666;
+    border-bottom: none;
+}
+
+#jasdl-subnav ul {
+    display: none;
+}
+
+#jasdl-subnav ul li {
+    display: inline;
+    line-height: normal;
+    padding: 0;
+    margin: 0;
+}
+
+#jasdl-subnav ul li.active a {
+    color: #FFFFFF;
+    background: url(../images/arrow2.gif) no-repeat center top #666666;
+    border-bottom: none;
+}
+
+#jasdl-subnav ul li.ja-spacer span {
+    padding: 5px 0;
+    display: block;
+}

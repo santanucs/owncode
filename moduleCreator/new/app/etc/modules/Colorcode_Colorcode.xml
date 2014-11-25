@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Colorcode_Colorcode>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Colorcode_Colorcode>
+    </modules>
+</config> 
